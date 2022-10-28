@@ -1,0 +1,318 @@
+@media (max-width: 768px) {
+    .boxxing {
+        overflow: hidden;
+    }
+    body img {
+        object-fit: cover;
+    }
+    .boxxing nav .menu {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav .logo {
+        width: 50%;
+    }
+
+    nav .button {
+        width: 50%;
+        gap: 20px;
+    }
+
+    .boxxing .box {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        padding: 12px;
+        gap: 30px;
+    }
+
+    .box .left {
+        width: 100% !important;
+        min-height: 45vh;
+        display: flex;
+        gap: 20px;
+        padding: 10px 10px;
+    }
+
+    .left h4 {
+        font-size: 13px;
+    }
+
+    .left h1 {
+        font-size: 35px;
+    }
+
+    .left .desc {
+        width: 100% !important;
+        font-size: 15px;
+    }
+
+    .left .brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right {
+        width: 100%;
+        min-height: 30vh !important;
+        display: flex;
+        justify-content: center !important;
+        padding: 0;
+        align-items: center;
+    }
+
+    .right img {
+        max-width: 250px;
+    }
+
+    .services {
+        padding: 15px;
+    }
+
+    .services .Section-title {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+        padding: 0 12px;
+        min-height: 13vh;
+    }
+
+    .Section-title h3 {
+        font-size: 14px;
+    }
+
+    .Section-title h1 {
+        font-size: 30px;
+    }
+
+    .services .items {
+        flex-wrap: wrap;
+    }
+
+    .items .Service-item {
+        max-width: 210px;
+    }
+
+    .Service-item h2 {
+        font-size: 18px;
+    }
+
+    .Service-item .description {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .portfolio {
+        padding: 12px;
+    }
+
+    .Section {
+        flex-wrap: wrap;
+    }
+
+    .portfolio .Section .h2 {
+        width: 270px;
+    }
+
+    .Section .h2 h3 {
+        font-size: 13px;
+    }
+
+    .Section .h2 h2 {
+        font-size: 28px;
+    }
+
+    .chevron {
+        width: 270px;
+        justify-content: center;
+    }
+
+    .body {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .portfolio-team {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body .portfolio-team h3 {
+        font-size: 22px;
+    }
+
+    .experience {
+        flex-direction: column;
+        padding: 12px;
+        gap: 30px;
+    }
+
+    .experience .left {
+        width: 100% !important;
+        gap: 20px;
+        min-height: 40vh;
+    }
+
+    .experience .left .u h3 {
+        font-size: 14px;
+    }
+
+    .experience .left .u h1 {
+        font-size: 30px;
+    }
+    .it .apple {
+        width: 100% !important;
+    }
+    .experience .right {
+        width: 100% !important;
+    }
+    .navs {
+        width: 100% !important;
+        padding: 0 12px;
+    }
+    .navs h2 {
+        font-size: 18px;
+    }
+    .navs h3 {
+        font-size: 18px;
+    }
+    .navs h4 {
+        font-size: 18px;
+    }
+
+    .foot {
+        padding: 10px 13px;
+    }
+     .foot h3 {
+        font-size: 16px;
+    }
+    .blog {
+        padding: 12px;
+    }
+    .blog .articles {
+        min-height: 16vh;
+    }
+    .blog .articles h3 {
+        font-size: 15px;
+    }
+    .blog .articles h1 {
+        font-size: 35px;
+    }
+    .blogs {
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .testimonal-box {
+        padding: 12px;
+    }
+    .testimonal-box .my-clients {
+        padding: 0;
+        min-height: 16vh;
+    }
+    .my-clients h2 {
+        font-size: 15px;
+    }
+    .my-clients h1 {
+        font-size: 32px;
+    }
+    .testimonal-bloger {
+        gap: 40px;
+    }
+    .testimonal-bloger .testimonal-item {
+        gap: 20px;
+        display: flex;
+        padding: 14px;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .testimonal-item .img-box img {
+        top: 0;
+    }
+    .testimonal-item .text {
+        width: 100%;
+        text-align: center;
+    }
+    .testimonal-bloger .name-box {
+        padding: 0;
+        text-align: center;
+    }
+    .Education-Skills {
+        padding: 12px;
+    }
+    .skills {
+        padding: 0 13px !important;
+    }
+    .skills h2 {
+        font-size: 15px !important;
+    }
+    .skills h1 {
+        font-size: 30px !important;
+    }
+    .education {
+        display: flex;
+        flex-direction: column;
+    }
+    .education .skillst-left {
+        width: 100%;
+        gap: 20px;
+    }
+     .text-boxer h1 {
+        font-size: 18px;
+    }
+    .education-item {
+        gap: 20px;
+        margin: 0;
+    }
+    .text-boxer {
+        width: 80%;
+    }
+    .text-boxer h2 {
+        font-size: 14px;
+    }
+    .boxer {
+        margin: 0 auto;
+    }
+    .skills-right {
+        width: 100% !important;
+        min-height: 40vh;
+        margin-top: 30px;
+        padding: 10px 13px;
+    }
+    .contact-form {
+        flex-direction: column;
+    }
+
+
+    .contact-form form {
+        width: 100% !important;
+        padding: 15px;
+        min-height: 50vh;
+    }
+    .info-box {
+        width: 100% !important;
+        min-height: 50vh;
+        padding: 15px 0;
+    }
+    .info-boxer {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxer-text {
+        width: 200px !important;
+        text-align: center;
+        padding: 10px 13px !important;
+    }
+    footer {
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proctice</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        input {
+            transition: ease-in-out;
+            transition-duration: .5s;
+        }
+
+        textarea {
+            transition: ease-in-out;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <div class=" boxxing  w-full min-h-screen">
+        <nav class="w-full min-h-[12vh] flex ">
+            <div class="logo w-[30%] min-h-[12vh] flex justify-center items-center">
+                <img src="./image/1.svg" alt="error">
+            </div>
+            <div class="menu  w-[50%] min-h-[12vh] flex justify-evenly items-center">
+                <a href="#"
+                    class="text-[18px] relative before:absolute content-none before:w-0 before:left-0 before:top-full before:bg-[#7E74F1] hover:text-blue-800 before:min-h-[2px] hover:before:w-full before:duration-500 duration-[.3s]">Services</a>
+                <a href="#"
+                    class="text-[18px] relative before:absolute content-none before:w-0 before:left-0 before:top-full before:bg-[#7E74F1] hover:text-blue-800 before:min-h-[2px] hover:before:w-full before:duration-500 duration-[.3s]">Portfolios</a>
+                <a href="#"
+                    class="text-[18px] relative before:absolute content-none before:w-0 before:left-0 before:top-full before:bg-[#7E74F1] hover:text-blue-800 before:min-h-[2px] hover:before:w-full before:duration-500 duration-[.3s]">Experience</a>
+                <a href="#"
+                    class="text-[18px] relative before:absolute content-none before:w-0 before:left-0 before:top-full before:bg-[#7E74F1] hover:text-blue-800 before:min-h-[2px] hover:before:w-full before:duration-500 duration-[.3s]">Blog</a>
+                <a href="#">. . .</a>
+            </div>
+            <div class="button w-[20%] min-h-[12vh] flex justify-center items-center gap-7">
+                <i class="fas fa-moon cursor-pointer hover:text-[rgb(0,0,255)] duration-500"></i>
+                <button
+                    class="w-[102px] min-h-[50px] border-[1px] hover:bg-blue-800 hover:text-white duration-500 border-[#F1F1F1] rounded-[8px] cursor-pointer">Resume</button>
+            </div>
+        </nav>
+        <div class="box flex justify-center items-center">
+            <div class="left w-[35%] min-h-[88vh] flex gap-8 justify-center flex-col">
+                <h4 class="text-[18px] text-[#656D72] tracking-widest">MY NAME IS</h4>
+                <h1 class="text-[60px] font-bold">Alex <span class="text-[#7575f0]">Smith.</span></h1>
+                <div class="desc w-[500px] min-h-[13vh] ">
+                    Creative front-end developer with more than +5 years of experience in enterprise companies and
+                    startups. Proficient in
+                    JavaScript, Angular, and React. Passionate about UI/UX
+                </div>
+                <div class="brand text-[20px] flex gap-10 ">
+                    <i class="fab fa-instagram cursor-pointer hover:text-green-400 duration-500"></i>
+                    <i class="fab fab fa-github cursor-pointer hover:text-green-400 duration-500"></i>
+                    <i class="fab fa-twitter cursor-pointer hover:text-green-400 duration-500"></i>
+                    <i class="fab fa-linkedin-in cursor-pointer hover:text-green-400 duration-500"></i>
+                </div>
+            </div>
+            <div class="right w-[45%] min-h-[88vh] object-cover justify-end items-center flex">
+                <img src="./image/2.png" alt="error">
+            </div>
+        </div>
+    </div>
+    <div class="services w-full min-h-screen ">
+        <div class="Section-title w-full min-h-[35vh] flex flex-col justify-center items-center gap-4">
+            <h3 class="text-[20px] tracking-widest text-[#656D72] text-center">SERVICES</h3>
+            <h1 class="text-[50px] text-[#232E35] font-bold text-center">Specialized in</h1>
+        </div>
+        <div class="items w-full min-h-[65vh] flex justify-evenly items-center ">
+            <div
+                class="Service-item group  w-[330px] min-h-[300px] flex flex-col gap-[25px] hover:bg-slate-100 hover:rounded-xl duration-500 justify-center py-[20px]">
+                <div
+                    class="icon group-hover:bg-slate-300 duration-500 w-[60px] min-h-[60px] rounded-xl flex justify-center mx-auto items-center bg-[#f0eefd]">
+                    <img src="./image/3.png" alt="error" class="object-cover">
+                </div>
+                <h2 class="text-[20px] text-[#232E35] text-center">UI/UX Design</h2>
+                <div class="description w-[90%] mx-auto text-[18px] text-center text-[#232E35]">
+                    Turn what you have in mind of a digital product into reality. For any platform you consider.
+                </div>
+            </div>
+            <div
+                class="Service-item group  w-[330px] min-h-[300px] flex flex-col gap-[25px] hover:bg-slate-100 hover:rounded-xl duration-500 justify-center py-[20px]">
+                <div
+                    class="icon group-hover:bg-slate-300 duration-500 w-[60px] min-h-[60px] rounded-xl flex justify-center mx-auto items-center bg-[#f0eefd]">
+                    <img src="./image/4.png" alt="error" class="object-cover">
+                </div>
+                <h2 class="text-[20px] text-[#232E35] text-center">Application Development</h2>
+                <div class="description w-[90%] mx-auto text-[18px] text-center text-[#232E35]">
+                    Standard designing, building, and implementing your applications with documentation.
+                </div>
+            </div>
+            <div
+                class="Service-item group  w-[330px] min-h-[300px] flex flex-col gap-[25px] hover:bg-slate-100 hover:rounded-xl duration-500 justify-center py-[20px]">
+                <div
+                    class="icon group-hover:bg-slate-300 duration-500 w-[60px] min-h-[60px] rounded-xl flex justify-center mx-auto items-center bg-[#f0eefd]">
+                    <img src="./image/5.svg" alt="error" class="object-cover">
+                </div>
+                <h2 class="text-[20px] text-[#232E35] text-center">Web Development</h2>
+                <div class="description w-[90%] mx-auto text-[18px] text-center text-[#232E35]">
+                    Create and maintain your websites and also take care of its performance and traffic capacity.
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="portfolio w-full min-h-screen">
+        <div class="Section w-full flex justify-center items-center min-h-[15vh]">
+            <div class="h2 w-[41%] min-h-full">
+                <h3 class="text-[18px] tracking-widest text-[#656D72]">MY WORKS</h3>
+                <h2 class="text-[45px] text-[#232E35]">Featured Portfolios</h2>
+            </div>
+            <div class="chevron w-[41%] min-h-[15vh] gap-[20px] flex justify-end items-center">
+                <div
+                    class="chevron-right group w-[50px] min-h-[50px] rounded-full hover:bg-sky-200 duration-500 cursor-pointer hover:text-black flex justify-center items-center bg-[#EAE6eE]">
+                    <i class="fas fa-chevron-left group-hover:text-black duration-500  text-[#7E74F1]"></i>
+                </div>
+                <div
+                    class="chevron-left group w-[50px] min-h-[50px] rounded-full hover:bg-sky-200 duration-500 cursor-pointer hover:text-black flex justify-center items-center bg-[#EAE6eE]">
+                    <i class="fas fa-chevron-right group-hover:text-black duration-500  text-[#7E74F1] "></i>
+                </div>
+            </div>
+        </div>
+        <div class="body w-full min-h-[83vh] flex justify-evenly items-center">
+            <div class="portfolio-team w-[360px] min-h-[400px]">
+                <div class="image w-full min-h-[300px]">
+                    <img src="./image/8.jpg" alt="error" class="w-full min-h-[300px]">
+                </div>
+                <div class="detalis w-full min-h-[100px] flex flex-col gap-[10px] justify-center px-[35px] shadow ">
+                    <h3 class="text-[20px] text-[#232E35]">Agency Website.</h3>
+                    <div class="h flex gap-10">
+                        <div class="h4">
+                            <h4 class="text-[#656D72] text-[18px]">WordPress</h4>
+                        </div>
+                        <div class="image">
+                            <img src="./image/9.png" class="mt-[4px]" alt="error">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-team w-[360px] min-h-[400px]">
+                <div class="image w-full min-h-[300px]">
+                    <img src="./image/6.jpg" alt="error" class="w-full min-h-[300px]">
+                </div>
+                <div class="detalis w-full min-h-[100px] flex flex-col gap-[10px] justify-center px-[35px] shadow ">
+                    <h3 class="text-[20px] text-[#232E35]">Dashboard Website.</h3>
+                    <div class="h flex gap-10">
+                        <div class="h4">
+                            <h4 class="text-[#656D72] text-[18px]">React</h4>
+                        </div>
+                        <div class="image">
+                            <img src="./image/9.png" class="mt-[4px]" alt="error">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-team w-[360px] min-h-[400px]">
+                <div class="image w-full min-h-[300px]">
+                    <img src="./image/7.jpg" alt="error" class="w-full min-h-[300px]">
+                </div>
+                <div class="detalis w-full min-h-[100px] flex flex-col gap-[10px] justify-center px-[35px] shadow ">
+                    <h3 class="text-[20px] text-[#232E35]">Support Center Website.</h3>
+                    <div class="h flex gap-10">
+                        <div class="h4">
+                            <h4 class="text-[#656D72] text-[18px]">PHP</h4>
+                        </div>
+                        <div class="image">
+                            <img src="./image/9.png" class="mt-[4px]" alt="error">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="experience w-full min-h-screen bg-[#f9f8f8] flex">
+        <div class="left w-[45%] min-h-[100vh] flex flex-col justify-center items-center gap-[80px]">
+            <div class="u flex flex-col gap-5">
+                <h3 class="uppercase text-[18px] tracking-widest text-[#656D72]">career path</h3>
+                <h1 class="text-[#232E35] text-[45px] font-bold">Work Experices</h1>
+            </div>
+            <div class="it flex flex-col w-full items-center gap-8">
+                <div
+                    class="apple group w-[300px] min-h-[7vh] cursor-pointer duration-500 bg-transparent  hover:bg-white gap-[130px] flex justify-center items-center text-[21px] hover:text-[#7E74F1] rounded-sm">
+                    Apple <i
+                        class="fas fa-chevron-right mt-[5px] group-hover:text-[#7E74F1] text-transparent duration-500"></i>
+                </div>
+                <div
+                    class="apple group w-[300px] min-h-[7vh] cursor-pointer duration-500 bg-transparent  hover:bg-white gap-[96px] flex justify-center items-center text-[21px] hover:text-[#7E74F1] rounded-sm">
+                    Microsoft <i
+                        class="fas fa-chevron-right mt-[5px] group-hover:text-[#7E74F1] text-transparent duration-500"></i>
+                </div>
+                <div
+                    class="apple group w-[300px] min-h-[7vh] cursor-pointer duration-500 bg-transparent  hover:bg-white gap-[95px] flex justify-center items-center text-[21px] hover:text-[#7E74F1] rounded-sm">
+                    Facebook <i
+                        class="fas fa-chevron-right mt-[5px] group-hover:text-[#7E74F1] text-transparent duration-500"></i>
+                </div>
+                <div
+                    class="apple group w-[300px] min-h-[7vh] cursor-pointer duration-500 bg-transparent  hover:bg-white gap-[135px] flex justify-center items-center text-[21px] hover:text-[#7E74F1] rounded-sm">
+                    Slack <i
+                        class="fas fa-chevron-right mt-[5px] group-hover:text-[#7E74F1] text-transparent duration-500"></i>
+                </div>
+            </div>
+        </div>
+        <div class="right w-[55%] min-h-[100vh]  flex flex-col justify-center gap-9">
+            <div class="navs w-full flex flex-col gap-3">
+                <h2 class="text-[#232E35] text-[30px]">Front-end Developer <span
+                        class="border-b-2 border-[#232E20] cursor-pointer">Apple .Inc</span></h2>
+                <h3 class="text-[25px] text-[#656D72]">California, United States</h3>
+                <h4 class="mt-[10px] text-[26px] text-[#656D72]">Nov 2020 - Present · Full-time</h4>
+                <div class="btn">
+                    <button class="border-[1px] border-[#F1F1F1] p-[4px] px-[10px]">Swift</button>
+                    <button class="border-[1px] border-[#F1F1F1] p-[4px] px-[10px]">Go</button>
+                </div>
+            </div>
+            <div class="bodys w-[90%] min-h-[2px] bg-[#F1F1F1]"></div>
+            <div class="foot flex flex-col gap-4">
+                <h3 class="text-[#656D72] text-[17px]"> - Improving overall website performance for mobile users.</h3>
+                <h3 class="text-[#656D72] text-[17px]"> - Collaborate with back-end developers and web designers to
+                    improve usability</h3>
+                <h3 class="text-[#656D72] text-[17px]"> - Add voice search feature for mobile app.</h3>
+                <h3 class="text-[#656D72] text-[17px]"> - Developing an admin panel to manage contents, users, products
+                    and ...</h3>
+            </div>
+        </div>
+    </div>
+    <div class="blog w-full min-h-[116vh] ">
+        <div class="articles w-full min-h-[30vh] flex flex-col justify-center items-center gap-3 ">
+            <h3 class="text-[20px] tracking-widest text-[#656D72] text-center"> - MY ARTICLES</h3>
+            <h1 class="text-[45px] text-[#232E35] text-center">Personal Blog</h1>
+        </div>
+        <div class="blogs w-full min-h-[70vh] flex flex-wrap justify-evenly items-center">
+            <div class="blog-item w-[361px] min-h-[506px] border-2 border-[#F1F1F1] rounded-xl">
+                <img src="./image/10.png" class="" alt="error">
+                <div class="how w-full min-h-[7vh] p-[15px] text-[#232E35] text-[20px] font-bold">
+                    <h3>How to prototype in figma</h3>
+                </div>
+                <div class="day w-full min-h-[7vh]  p-[15px] text-[#b6b5b5] text-[14px]">
+                    <h2>July 15, 2021</h2>
+                </div>
+                <div class="lorem p-[15px]">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque
+                        laoreet. Fusce finibus ...</h4>
+                </div>
+                <div class="contine w-full min-h-[2vh]  p-[15px] text-center">
+                    <h3>Continue Reading</h3>
+                </div>
+            </div>
+            <div class="blog-item w-[361px] min-h-[506px] border-2 border-[#F1F1F1] rounded-xl">
+                <img src="./image/11.jpg" class="" alt="error">
+                <div class="how w-full min-h-[7vh] p-[15px] text-[#232E35] text-[18px] font-bold">
+                    <h3>Being more productive with Notion.</h3>
+                </div>
+                <div class="day w-full min-h-[7vh]  p-[15px] text-[#b6b5b5] text-[14px]">
+                    <h2>Aug 8, 2020</h2>
+                </div>
+                <div class="lorem p-[15px]">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque
+                        laoreet. Fusce finibus ...</h4>
+                </div>
+                <div class="contine w-full min-h-[2vh]  p-[15px] text-center">
+                    <h3>Continue Reading</h3>
+                </div>
+            </div>
+            <div class="blog-item w-[361px] min-h-[506px] border-2 border-[#F1F1F1] rounded-xl">
+                <img src="./image/12.jpg" class="" alt="error">
+                <div class="how w-full min-h-[7vh] p-[15px] text-[#232E35] text-[18px] font-bold">
+                    <h3>Beginners guide to adobe illustrator</h3>
+                </div>
+                <div class="day w-full min-h-[7vh]  p-[15px] text-[#b6b5b5] text-[14px]">
+                    <h2>Feb 19, 2021</h2>
+                </div>
+                <div class="lorem p-[15px]">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque
+                        laoreet. Fusce finibus ...</h4>
+                </div>
+                <div class="contine w-full min-h-[2vh]  p-[15px] text-center">
+                    <h3>Continue Reading</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonal-box w-full min-h-screen bg-[#FBFBFB]">
+        <div class="my-clients w-full min-h-[25vh] flex flex-col justify-center pl-[100px]">
+            <h2 class="text-[18px] tracking-widest text-[#656D72] "> - MY CLIENTS</h2>
+            <h1 class="text-[40px]  text-[ #232E35] font-bold">Testimonials</h1>
+        </div>
+        <div class="testimonal-bloger  w-full min-h-[75vh]  flex-wrap flex justify-evenly items-center">
+            <div class="testimonal-item hover:shadow-lg duration-500 w-[360px] min-h-[290px]  bg-white">
+                <div class="img-box w-full min-h-[13vh]  relative flex justify-center"><img src="./image/13.png"
+                        class="absolute  top-[-60%]" alt="error"></div>
+                <div class="body-box w-full min-h-[16vh] flex justify-center items-center ">
+                    <div class="text w-[73%]">
+                        We were very pleased to hear how you resolved our website's user interface issues and
+                        challenges.
+                    </div>
+                </div>
+                <div class="name-box min-h-[12vh] w-full  pl-[50px] flex flex-col justify-center ">
+                    <h2 class="font-bold text-[20px] text-[#232E35]">Amelia Miller</h2>
+                    <h2 class="text-[#c3c2c2]">Designer</h2>
+                </div>
+            </div>
+            <div class="testimonal-item w-[360px] hover:shadow-lg duration-500 min-h-[290px] bg-white">
+                <div class="img-box w-full min-h-[13vh]  relative flex justify-center"><img src="./image/14.png"
+                        class="absolute  top-[-60%]" alt="error"></div>
+                <div class="body-box w-full min-h-[16vh] flex justify-center items-center ">
+                    <div class="text w-[73%]">
+                        I’m glad I decided to work with you. The project was delivered on time with all the
+                        requirements.
+                    </div>
+                </div>
+                <div class="name-box min-h-[12vh] w-full  pl-[50px] flex flex-col justify-center ">
+                    <h2 class="font-bold text-[20px] text-[#232E35]">James Delaney</h2>
+                    <h2 class="text-[#c3c2c2]">Developer</h2>
+                </div>
+            </div>
+            <div class="testimonal-item w-[360px] min-h-[290px]  duration-500 hover:shadow-lg bg-white">
+                <div class="img-box w-full min-h-[13vh]  relative flex justify-center"><img src="./image/15.png"
+                        class="absolute  top-[-60%]" alt="error"></div>
+                <div class="body-box w-full min-h-[16vh] flex justify-center items-center ">
+                    <div class="text w-[73%]">
+                        The management of our projects was always faced with difficulties, but you handled these well.
+                    </div>
+                </div>
+                <div class="name-box min-h-[12vh] w-full  pl-[50px] flex flex-col justify-center ">
+                    <h2 class="font-bold text-[20px] text-[#232E35]">Isabella Bennett</h2>
+                    <h2 class="text-[#c3c2c2]">Manager</h2>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="Education-Skills w-full min-h-screen ">
+        <div class="skills w-[100%] min-h-[15vh] flex flex-col justify-center pl-[100px]">
+            <h2 class="text-[18px] text-[#656D72] tracking-[5px]">LEARNING PATH</h2>
+            <h1 class="text-[#232E35] text-[40px] font-bold">Education & Skills</h1>
+        </div>
+        <div class="education w-full min-h-[85vh] flex">
+            <div class="skillst-left w-[43%] min-h-[85vh] flex flex-col justify-center items-center">
+                <div class="universities flex flex-col gap-14">
+                    <div class="education-item flex gap-3">
+                        <div class="boxer w-[20px] max-h-[20px] bg-[#F2F1F1] mt-[7.5px] rounded-full"></div>
+                        <div class="text-boxer">
+                            <h1 class="text-[20px]">Kingston university</h1>
+                            <h2 class="text-[#656D72]">Master's degree - Software Engineering</h2>
+                            <h3 class="mt-[15px] text-[20px]">2019 - 2021</h3>
+                        </div>
+                    </div>
+                    <div class="education-item flex gap-3">
+                        <div class="boxer w-[20px] max-h-[20px] bg-[#F2F1F1] mt-[7.5px] rounded-full"></div>
+                        <div class="text-boxer">
+                            <h1 class="text-[20px]">Kingston university</h1>
+                            <h2 class="text-[#656D72]">Bachelor's degree - Computer Engineering</h2>
+                            <h3 class="mt-[15px] text-[20px]">2015 - 2019</h3>
+                        </div>
+                    </div>
+                    <div class="education-item flex gap-3">
+                        <div class="boxer w-[20px] max-h-[20px] bg-[#F2F1F1] mt-[7.5px] rounded-full"></div>
+                        <div class="text-boxer">
+                            <h1 class="text-[20px]">Westminster School</h1>
+                            <h2 class="text-[#656D72]">Diploma's degree - Mathematics</h2>
+                            <h3 class="mt-[15px] text-[20px]">2013 - 2015</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-right  w-[50%] min-h-[85vh]  flex flex-col justify-center gap-6">
+                <div class="descript w-full min-h-[15vh] text-[#656D72]">
+                    For 5+ years, I have been continuously learning in the field of front-end and experimenting with new
+                    technologies and
+                    frameworks, and here you can see a summary of my skills.
+                </div>
+                <div class="skill-bars flex flex-col gap-4">
+                    <div class="bars w-full min-h-[13vh] flex flex-col justify-center gap-3">
+                        <h2>React</h2>
+                        <div class="fill w-[90%] min-h-[10px] bg-[#F5F3FE] rounded-xl">
+                            <div class="line w-[75%] min-h-[10px] bg-[#7E74F1] rounded-xl"></div>
+                        </div>
+                    </div>
+                    <div class="bars w-full min-h-[13vh] flex flex-col justify-center gap-3">
+                        <h2>Angular</h2>
+                        <div class="fill w-[90%] min-h-[10px] bg-[#F5F3FE] rounded-xl">
+                            <div class="line w-[50%] min-h-[10px] bg-[#7E74F1] rounded-xl"></div>
+                        </div>
+                    </div>
+                    <div class="bars w-full min-h-[13vh] flex flex-col justify-center gap-3">
+                        <h2>Javascript</h2>
+                        <div class="fill w-[90%] min-h-[10px] bg-[#F5F3FE] rounded-xl">
+                            <div class="line w-[65%] min-h-[10px] bg-[#7E74F1] rounded-xl"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-form w-full min-h-[80vh] bg-[#FBFBFB] flex">
+        <form action="https://google.com"
+            class="w-[50%] min-h-[80vh] flex flex-col justify-center items-center gap-10">
+            <input type="fname" placeholder="Name"
+                class=" min-h-[6vh] bg-white border-none  rounded-[5px] pl-[30px] focus:bg-blue-200 w-[80%] ">
+            <input type="email" placeholder="Email"
+                class=" min-h-[6vh] bg-white border-none  rounded-[5px] pl-[30px] focus:bg-blue-200 w-[80%] ">
+            <textarea name="text" cols="20" rows="5"
+                class="resize-none w-[80%] pl-[30px] rounded-[5px] pt-[20px] duration-[.4s] focus:bg-blue-300"
+                placeholder="Message"></textarea>
+            <input type="submit" value="Send Message" class="w-[80%] cursor-pointer min-h-[6vh] text-white bg-[#7E74F1] rounded-sm">
+        </form>
+        <div class="info-box w-[50%] min-h-[80vh] flex flex-col gap-12 justify-center">
+            <div class="info-boxer flex gap-5">
+                <div class="shape w-[60px] min-h-[60px] rounded-[10px] cursor-pointer flex justify-center items-center bg-[#F5F3FE]"><img src="./image/16.svg" alt="error"></div>
+                <div class="boxer-text">
+                    <h2 class="text-[20px]">Address</h2>
+                    <h3 class="text-[#656D72]">3424 Layman Avenue, Fayetteville, NC</h3>
+                </div>
+            </div>
+            <div class="info-boxer  flex gap-5">
+                <div class="shape w-[60px] cursor-pointer min-h-[60px] rounded-[10px] flex justify-center items-center bg-[#F5F3FE]"><i class="fas fa-phone text-[#7E74F1]"></i></div>
+                <div class="boxer-text">
+                    <h2 class="text-[20px]">Phone</h2>
+                    <a href="tel:+998 90 633 19 10" class="text-[#656D72]">(501) 414-1541</a>
+                </div>
+            </div>
+            <div class="info-boxer flex gap-5">
+                <div class="shape w-[60px] cursor-pointer min-h-[60px] rounded-[10px] flex justify-center items-center bg-[#F5F3FE]"><i class="fas fa-envelope text-[#7E74F1]"></i></div>
+                <div class="boxer-text">
+                    <h2 class="text-[20px]">E-Mail</h2>
+                   <a href="#" class="text-[#656D72]">devchapter@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="w-full min-h-[30vh] flex flex-col justify-center items-center gap-6">
+        <div class="iconca text-[30px] text-[#656D72] flex gap-8">
+            <i class="fab fa-instagram cursor-pointer hover:text-blue-900 duration-500"></i>
+            <i class="fab fa-github cursor-pointer hover:text-blue-900 duration-500"></i>
+            <i class="fab fa-twitter cursor-pointer hover:text-blue-900 duration-500"></i>
+            <i class="fab fa-linkedin-in cursor-pointer hover:text-blue-900 duration-500"></i>
+        </div>
+        <h3 class="text-[#656D72]">© 2022 - DevChapter</h3>
+    </footer>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+</body>
+
+</html>
