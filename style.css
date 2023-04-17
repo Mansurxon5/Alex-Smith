@@ -1,3 +1,9 @@
+body.active {
+    color: white;
+    background: #040433;
+}
+
+
 @media (max-width: 768px) {
     .boxxing {
         overflow: hidden;
